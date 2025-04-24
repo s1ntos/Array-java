@@ -32,14 +32,14 @@ No exemplo abaixo, veremos diferentes formas de declarar, inicializar e acessar 
 ```java
 public class Declaracao_Array {
     public static void main(String[] args) {
-        //forma1
+        //declaração de array, forma1
         int[] a = new int[4];
 
-        //forma 2
+        //declaração de array, forma 2
         int[] b;
         b = new int[10];
 
-        //forma 3, declarado varios arrays
+        //declaração de varios arrays, forma 3
         int[] r = new int[44], k = new int[23];
 
         //inicializando uma array, forma 1
