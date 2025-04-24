@@ -32,12 +32,20 @@ No exemplo abaixo, veremos diferentes formas de declarar, inicializar e acessar 
 ```java
 public class Declaracao_Array {
     public static void main(String[] args) {
+        //forma1
         int[] a = new int[4];
+
+        //forma 2
         int[] b;
         b = new int[10];
+
+        //forma 3, declarado varios arrays
         int[] r = new int[44], k = new int[23];
+
+        //inicializando uma array, forma 1
         int[] iniciaValores = {12, 32, 54, 6, 8, 89, 64, 64, 6};
-        int[] meuArray = new int[10];
+
+        //inicializando um array, forma 2
         meuArray[0] = 100;
         meuArray[1] = 85;
         meuArray[2] = 88;
